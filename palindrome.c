@@ -5,7 +5,7 @@ main()
     int num,n,count=0,ret_value;
     printf("enter more than 3 digit number\n");
     n=1221;
-    n=num;
+    num=n;
     while(n!=0)
     {
         n=n/10;
