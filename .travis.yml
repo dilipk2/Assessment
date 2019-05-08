@@ -1,17 +1,17 @@
 language: c
-	sudo: false # only for faster builds
-	compiler:
-	   -clang
-	   -gcc
-	script:
-	  - clang -coverage -O0 Asses1.c -o Asses1
-	  - ./Asses1
-	  - clang -coverage -O0 heena.c -o heena
-	  - ./heena
-	  - clang -coverage -O0 palindrome.c -o palindrome
-	  - ./palindrome
-	  - clang -coverage -O0 code.c -o code
-	  - ./code
+sudo: false # only for faster builds
+compiler:
+  -clang
+  -gcc
+script:
+  - clang -coverage -O0 Asses1.c -o Asses1
+  - ./Asses1
+  - clang -coverage -O0 heena.c -o heena
+  - ./heena
+  - clang -coverage -O0 palindrome.c -o palindrome
+  - ./palindrome
+  - clang -coverage -O0 code.c -o code
+  - ./code
 
 
         
