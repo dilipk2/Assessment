@@ -3,7 +3,7 @@ main()
 {
   int n, f1=0, f2=1,f3,c;
   printf("Enter the number of terms\n");
-  scanf("%d",&n);
+  n=10;
   
   printf("First %d terms of Fibonacci series are:\n",n);
   for(c=0; c<n; c++)
