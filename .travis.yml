@@ -6,8 +6,14 @@ matrix:
         - clang
         - gcc
       script:
-        - gcc -o test CODE.c
-        - gcc -o test heena.c
-        - gcc -o test Asses1.c
-        - gcc -o test palindrome.c
-        - ./test
+        - gcc -o test1 CODE.c
+        - gcc -o test2 heena.c
+        - gcc -o test3 Asses1.c
+        - gcc -o test4 palindrome.c
+        - ./test1
+        - ./test2
+        - ./test3
+        - ./test4
+
+        
+        
