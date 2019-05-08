@@ -28,7 +28,7 @@ main()
 int palindrome(int n,int c)
 {
 
-   int sum=0,rem=0,i;
+   int sum=0,rem,i;
    for(i=1;i<=c;i++)
    {
    rem=n%10;
