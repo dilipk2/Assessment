@@ -2,11 +2,10 @@
 #include<stdio.h>
 #include<stdint.h>
 int fact(int );
-int main()
 
+int main()
 {
 int n=5,f;
-printf("enter a number to generate factorial");
 f=fact(n);
 printf("%d",f);
 }
