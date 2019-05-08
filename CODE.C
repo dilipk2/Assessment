@@ -4,7 +4,7 @@ int main()
     int number, originalNumber, remainder, result = 0;
 
     printf("Enter a three digit integer: ");
-    scanf("%d", &number);
+    number=121;
 
     originalNumber = number;
 
