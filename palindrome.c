@@ -4,7 +4,7 @@ main()
 {
     int num,n,count=0,ret_value;
     printf("enter more than 3 digit number\n");
-    n=121;
+    n=1221;
     n=num;
     while(n!=0)
     {
@@ -28,8 +28,8 @@ main()
 int palindrome(int n,int c)
 {
 
-   int sum=0,rem=0;
-   for(int i=1;i<=c;i++)
+   int sum=0,rem=0,i;
+   for(i=1;i<=c;i++)
    {
    rem=n%10;
    sum=sum*10+rem;
