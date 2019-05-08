@@ -1,17 +1,17 @@
-matrix:
-	  include:    
-	    - language: c  
-	      sudo: false # only for faster builds  
-	      compiler:
-	        - clang
-	        - gcc
-	      script:  
-	        - gcc -o heena.c 
-	        - ./heena
-	        - gcc -o Asses1.c
-	        - ./Asses1
-	        - gcc -o CODE.c
-	        - ./CODE
-          - gcc -o palindrome.c
-          - ./palindrome
+language: c
+	sudo: false # only for faster builds
+	compiler:
+	   -clang
+	   -gcc
+	script:
+	  - clang -coverage -O0 Asses1.c -o Asses1
+	  - ./Asses1
+	  - clang -coverage -O0 heena.c -o heena
+	  - ./heena
+	  - clang -coverage -O0 palindrome.c -o palindrome
+	  - ./palindrome
+	  - clang -coverage -O0 CODE.c -o CODE
+	  - ./CODE
+
+
         
