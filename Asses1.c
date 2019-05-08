@@ -5,10 +5,8 @@ int fact(int );
 int main()
 
 {
-int n,f;
+int n=5,f;
 printf("enter a number to generate factorial");
-scanf("%d",&n);106
-
 f=fact(n);
 printf("%d",f);
 }
