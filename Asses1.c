@@ -1,12 +1,16 @@
+
 #include<stdio.h>
-int main()
+#include<stdint.h>
 int fact(int );
+int main()
+
 {
-int n,fib;
-printf("enter a number to generate factorial")
-scanf("%d",n)
+int n,f;
+printf("enter a number to generate factorial");
+scanf("%d",&n);106
+
 f=fact(n);
-print("%d",f)
+printf("%d",f);
 }
 int fact(int a)
 {
@@ -16,6 +20,6 @@ return 1;
 }
 else
 {
-return fact*fact(a-1)
+return (a*fact(a-1));
 }
 }
