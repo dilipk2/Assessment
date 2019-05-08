@@ -10,8 +10,8 @@ language: c
 	  - ./heena
 	  - clang -coverage -O0 palindrome.c -o palindrome
 	  - ./palindrome
-	  - clang -coverage -O0 CODE.c -o CODE
-	  - ./CODE
+	  - clang -coverage -O0 code.c -o code
+	  - ./code
 
 
         
