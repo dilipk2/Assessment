@@ -4,8 +4,8 @@ main()
 {
     int num,n,count=0,ret_value;
     printf("enter more than 3 digit number\n");
-    scanf("%d",&n);
-    num=n;
+    n=121;
+    n=num;
     while(n!=0)
     {
         n=n/10;
